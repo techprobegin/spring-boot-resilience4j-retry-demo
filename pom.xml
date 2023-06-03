@@ -21,22 +21,10 @@
 	</properties>
 
 	<modules>
-	<module>accounts</module>
-	<module>cards</module>
-	<module>loans</module>
+	<module>bank-accounts</module>
+	<module>bank-cards</module>
+	<module>bank-loans</module>
 	</modules>
-
-<!--	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>-->
 
 	<build>
 		<plugins>
